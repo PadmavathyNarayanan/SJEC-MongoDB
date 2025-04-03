@@ -5,4 +5,4 @@ Products
 Orders
   o_id,u_id,p_id,qty,status
 Payments
-  id,o_id,amount,status,method
+  pay_id,o_id,amount,status,method
