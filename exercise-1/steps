@@ -1,15 +1,13 @@
 
 #Step 2: Retrieve Data
-#Find All Users
 
+#Find All Users
 db.users.find()
 
 #Find Orders Placed by "Alice" (Using User ID)
-
 db.orders.find({ user_id: 1 })
 
 #Find Payments for a Specific Order
-
 db.payments.find({ order_id: 1001 })
 
 
